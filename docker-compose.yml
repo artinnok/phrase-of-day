@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  db:
+    image: 'postgres:12.2'
+    container_name: db
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_DB: 'phrase'
+      POSTGRES_USER: 'phrase'
+      POSTGRES_PASSWORD: 'behonestman'

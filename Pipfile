@@ -7,7 +7,7 @@ verify_ssl = true
 black = "==19.10b0"
 
 [packages]
-aiohttp = "==3.6.2"
+aiohttp = "==3.7.4"
 environs = "==7.3.1"
 psutil = "==5.7.0"
 peewee = "==3.13.1"
